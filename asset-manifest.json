@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/invitation/static/css/main.3e353d9a.css",
-    "main.js": "/invitation/static/js/main.fa8b3934.js",
+    "main.js": "/invitation/static/js/main.b5233566.js",
     "static/js/787.d00bc756.chunk.js": "/invitation/static/js/787.d00bc756.chunk.js",
     "static/media/taeyeon_poem.mp3": "/invitation/static/media/taeyeon_poem.13d16db4a02836cf5d9d.mp3",
     "static/media/부크크명조_얇은글씨.woff": "/invitation/static/media/부크크명조_얇은글씨.4dd24ae27c5fa573aaf0.woff",
@@ -24,11 +24,11 @@
     "static/media/naver.webp": "/invitation/static/media/naver.7717483eebafa7435918.webp",
     "index.html": "/invitation/index.html",
     "main.3e353d9a.css.map": "/invitation/static/css/main.3e353d9a.css.map",
-    "main.fa8b3934.js.map": "/invitation/static/js/main.fa8b3934.js.map",
+    "main.b5233566.js.map": "/invitation/static/js/main.b5233566.js.map",
     "787.d00bc756.chunk.js.map": "/invitation/static/js/787.d00bc756.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e353d9a.css",
-    "static/js/main.fa8b3934.js"
+    "static/js/main.b5233566.js"
   ]
 }
