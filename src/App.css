@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  
+}
+.wedding-tabs-wrapper {
+  width: 100%;
+  margin: 0;
+}
+
+.wedding-tabs {
+  display: flex;
+  background: #fdf7f7;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.wedding-tab {
+  flex: 1;
+  text-align: center;
+  padding: 14px 0;
+  font-size: 16px;
+  color: #666;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.wedding-tab.active {
+  background-color: #c1c9e5;
+  font-weight: 700;
+  color: #333;
+}
+
+.title {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.container {
+  margin: 0;
+  padding: 35px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flower {
+  width: 150px;
+}
+
+.butterfly {
+  width: 150px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.bc-white {
+  background-color: white;
+}
+
+.bc-pink {
+  background-color: #fdf7f7;;
+}
+
+.bc-blue {
+  background-color: #e4e8f2;;
+}

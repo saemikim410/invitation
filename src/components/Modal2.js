@@ -1,0 +1,33 @@
+import React from 'react'
+
+function Modal({ closeModal, who, account, kakaopay }) {
+
+  const copyToClipboard = (text) => {
+    navigator.clipboard.writeText(text)
+      .then(() => {
+        alert("계좌번호가 복사되었습니다.");
+      })
+      .catch((err) => {
+        console.error('클립보드 복사 중 오류가 발생했습니다: ', err);
+      });
+  };
+
+  return (
+      <div className="modal">
+        <div className="modal__content2">
+          <div className='modal__account'>계좌번호</div>
+          <div className='atext'>복사 버튼 클릭 시, 복사됩니다.</div>
+          <div className='modal__details2'>
+              <div className='modal_line2'>{who}</div>
+              <div>{account}</div>
+          </div>
+          <div className='modal__buttons'>
+              <button className='modal__btn-copy2' onClick={() => copyToClipboard(account)}>복사</button>
+              <button className='modal_btn_close' onClick={closeModal}>닫기</button>
+          </div>
+        </div>
+      </div>
+    );
+}
+
+export default Modal

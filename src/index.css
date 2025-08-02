@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Pretendard&family=Gowun+Batang&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'GangwonEdu';
+  
+}
+body.studio-mode {
+  background-color: #fffafa;
+  color: #6B4B3E;
+  transition: background-color 0.5s ease;
+}
+
+body.jeju-mode {
+  background-color: #f7f8fb; 
+  color: #3A3A4F;
+  transition: background-color 0.5s ease;
+} 
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@font-face {
+  font-family: 'GangwonEdu_OTFBoldA';
+  src: url('fonts/강원교육모두_Bold.woff')  format('woff');
+}
+
+@font-face {
+  font-family: 'GangwonEdu';
+  src: url('fonts/강원교육모두_Light.woff') format('woff');
+}
+
+  @font-face {
+    font-family: 'BookkMyungjo-Bd';
+    src: url('fonts/부크크명조_굵은글씨.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'BookkMyungjo';
+    src: url('fonts/부크크명조_얇은글씨.woff') format('woff');
+  }
