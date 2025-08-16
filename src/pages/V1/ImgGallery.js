@@ -1,17 +1,17 @@
 import React from 'react';
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
-import p1 from '../../images/p1.png';
-import p2 from '../../images/p2.png';
-import p3 from '../../images/p3.png';
-import p4 from '../../images/p4.png';
-import p5 from '../../images/p5.png';
+import p1 from '../../images/7.jpg';
+import p2 from '../../images/8.jpg';
+import p3 from '../../images/2.jpg';
+import p4 from '../../images/20.jpg';
+import p5 from '../../images/5.jpg';
 
-import s1 from '../../images/s1.png';
-import s2 from '../../images/s2.png';
-import s3 from '../../images/s3.png';
-import s4 from '../../images/s4.png';
-import s5 from '../../images/s5.png';
+import s1 from '../../images/7.jpg';
+import s2 from '../../images/8.jpg';
+import s3 from '../../images/2.jpg';
+import s4 from '../../images/20.jpg';
+import s5 from '../../images/5.jpg';
 
 function ImgGallery() {
 
