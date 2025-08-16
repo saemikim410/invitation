@@ -1,8 +1,13 @@
 {
   "files": {
     "main.css": "/invitation/static/css/main.3e353d9a.css",
-    "main.js": "/invitation/static/js/main.1d708a1b.js",
+    "main.js": "/invitation/static/js/main.9bd6b082.js",
     "static/js/787.d00bc756.chunk.js": "/invitation/static/js/787.d00bc756.chunk.js",
+    "static/media/5.jpg": "/invitation/static/media/5.a6a6a50000a7c32e47e7.jpg",
+    "static/media/20.jpg": "/invitation/static/media/20.ee0b23bd8850ce67e184.jpg",
+    "static/media/7.jpg": "/invitation/static/media/7.9d1c5347e10959d5a318.jpg",
+    "static/media/8.jpg": "/invitation/static/media/8.0a7c88ceba944465ac50.jpg",
+    "static/media/2.jpg": "/invitation/static/media/2.9e7095dedfea95301ef0.jpg",
     "static/media/n14.png": "/invitation/static/media/n14.f7a48a9e9638e4a7c0da.png",
     "static/media/taeyeon_poem.mp3": "/invitation/static/media/taeyeon_poem.13d16db4a02836cf5d9d.mp3",
     "static/media/부크크명조_얇은글씨.woff": "/invitation/static/media/부크크명조_얇은글씨.4dd24ae27c5fa573aaf0.woff",
@@ -25,11 +30,11 @@
     "static/media/naver.webp": "/invitation/static/media/naver.7717483eebafa7435918.webp",
     "index.html": "/invitation/index.html",
     "main.3e353d9a.css.map": "/invitation/static/css/main.3e353d9a.css.map",
-    "main.1d708a1b.js.map": "/invitation/static/js/main.1d708a1b.js.map",
+    "main.9bd6b082.js.map": "/invitation/static/js/main.9bd6b082.js.map",
     "787.d00bc756.chunk.js.map": "/invitation/static/js/787.d00bc756.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e353d9a.css",
-    "static/js/main.1d708a1b.js"
+    "static/js/main.9bd6b082.js"
   ]
 }
