@@ -40,8 +40,8 @@ function Invitation() {
           <div>여러분이 있었으면 좋겠습니다. </div>
           <div>&nbsp;&nbsp;</div>
         </div>
-        <FamilyInfo dad={process.env.REACT_APP_GROOM_DAD} mom={process.env.REACT_APP_GROOM_MOM} child={process.env.REACT_APP_GROOM_NAME} relation="의 장남" />
-        <FamilyInfo dad={process.env.REACT_APP_BRIDE_DAD} mom={process.env.REACT_APP_BRIDE_MOM} child={process.env.REACT_APP_BRIDE_NAME} relation="의 장녀" />
+        <FamilyInfo dad={process.env.REACT_APP_GROOM_DAD} mom={process.env.REACT_APP_GROOM_MOM} child={process.env.REACT_APP_GROOM_NAME2} relation="의 장남" />
+        <FamilyInfo dad={process.env.REACT_APP_BRIDE_DAD} mom={process.env.REACT_APP_BRIDE_MOM} child={process.env.REACT_APP_BRIDE_NAME2} relation="의 장녀" />
         <button className='invitation__btn-contact' onClick={openModal}>연락하기</button>
         {isModalOpen && (
           <ContactModal closeModal={closeModal}/>
