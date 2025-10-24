@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react'
-import mainPhoto from '../../images/n14.png'
+import mainPhoto from '../../images/JWH_5926.jpg'
 import { TbPlayerTrackPrevFilled, TbPlayerSkipBackFilled, TbPlayerSkipForwardFilled, TbPlayerTrackNextFilled } from "react-icons/tb";
 import { BsPlayCircle, BsStopCircle } from "react-icons/bs";
 import { GoHeartFill } from "react-icons/go";
