@@ -77,7 +77,7 @@ function Quiz() {
       };
 
   return (
-    <div className='container bc-pink' data-aos="fade-up">
+    <div className='container bc-pink' id="quiz_div" data-aos="fade-up">
         <div className='title'>깜짝 퀴즈</div>
         {showScore ? (
         <div className='score-section'>

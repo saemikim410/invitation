@@ -5,7 +5,7 @@ import { FaMoneyCheck } from "react-icons/fa6";
 import Modal from '../../components/Modal2';
 import '../../css/Modal.css'
 
-function ContactButton({ person, account }) {
+function ContactButton({ person, account, real_name }) {
     const [isModalOpen, setIsModalOpen] = useState(false);
   
     const openModal = () => {
@@ -25,7 +25,7 @@ function ContactButton({ person, account }) {
           </div>
         </div>
         {isModalOpen && (
-          <Modal closeModal={closeModal} who={person} account={account} />
+          <Modal closeModal={closeModal} who={real_name} account={account} />
         )}
       </>
     );
@@ -34,29 +34,29 @@ function ContactButton({ person, account }) {
 
   function Account() {
     const groom_contact = [
-      { person: "신랑 " + process.env.REACT_APP_GROOM_NAME, account: process.env.REACT_APP_GROOM_ACCOUT },
-      { person: "아버지 " + process.env.REACT_APP_GROOM_DAD, account: process.env.REACT_APP_GROOM_DAD_ACCOUT },
-      { person: "어머니 " + process.env.REACT_APP_GROOM_MOM, account: process.env.REACT_APP_GROOM_MOM_ACCOUT },
+      { person: "신랑 " + process.env.REACT_APP_GROOM_NAME, account: process.env.REACT_APP_GROOM_ACCOUT, real_name: process.env.REACT_APP_GROOM_NAME },
+      { person: "아버지 " + process.env.REACT_APP_GROOM_DAD, account: process.env.REACT_APP_GROOM_DAD_ACCOUT, real_name: process.env.REACT_APP_GROOM_NAME },
+      { person: "어머니 " + process.env.REACT_APP_GROOM_MOM, account: process.env.REACT_APP_GROOM_MOM_ACCOUT, real_name: process.env.REACT_APP_GROOM_NAME },
     ];
 
     const bride_contact = [
-      { person: "신부 " + process.env.REACT_APP_BRIDE_NAME, account: process.env.REACT_APP_BRIDE_ACCOUT },
-      { person: "아버지 " + process.env.REACT_APP_BRIDE_DAD, account: process.env.REACT_APP_BRIDE_DAD_ACCOUT },
-      { person: "어머니 " + process.env.REACT_APP_BRIDE_MOM, account: process.env.REACT_APP_BRIDE_MOM_ACCOUT },
+      { person: "신부 " + process.env.REACT_APP_BRIDE_NAME, account: process.env.REACT_APP_BRIDE_ACCOUT, real_name: process.env.REACT_APP_BRIDE_NAME },
+      { person: "아버지 " + process.env.REACT_APP_BRIDE_DAD, account: process.env.REACT_APP_BRIDE_DAD_ACCOUT, real_name: process.env.REACT_APP_BRIDE_NAME },
+      { person: "어머니 " + process.env.REACT_APP_BRIDE_MOM, account: process.env.REACT_APP_BRIDE_MOM_ACCOUT, real_name: process.env.REACT_APP_BRIDE_MOM },
       ];
   
     return (
-      <div className="container" data-aos="fade-up">
+      <div className="container" id="account_div" data-aos="fade-up">
         <img src={butterfly} className="butterfly" alt="butterfly"/>
         <div className='contact__title'>마음 전하는 곳</div>
         <div className="contact__boxes2">
           {groom_contact.map((contact, index) => (
-            <ContactButton key={index} person={contact.person} account={contact.account} />
+            <ContactButton key={index} person={contact.person} account={contact.account} real_name={contact.real_name} />
           ))}
         </div>
         <div className="contact__boxes2">
           {bride_contact.map((contact, index) => (
-            <ContactButton key={index} person={contact.person} account={contact.account} />
+            <ContactButton key={index} person={contact.person} account={contact.account} real_name={contact.real_name} />
           ))}
         </div>
         <div className="contact__guide-text">아이콘을 클릭하시면 계좌번호를 확인할 수 있습니다.</div>

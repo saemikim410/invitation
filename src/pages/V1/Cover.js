@@ -27,7 +27,7 @@ function Cover() {
     
 
   return (
-    <div className="container" data-aos="fade-up">
+    <div className="container" id="cover_div" data-aos="fade-up">
         <div className='title'>We're getting married</div>
         <img className="cover__main-photo" src={mainPhoto} alt='weddingcouple'></img>
         <div className='cover__person'>

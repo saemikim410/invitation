@@ -84,7 +84,7 @@ function ImgGallery() {
 
   
   return (
-    <div className='bc-pink container' data-aos="fade-up">
+    <div className='bc-pink container' id="gallery_div" data-aos="fade-up">
       <ImageGallery items={images} />
     </div>
   )

@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react'
-import mainPhoto from '../../images/CN2_0084.JPG'
+import mainPhoto from '../../images/CN2_0084.jpg'
 import { TbPlayerTrackPrevFilled, TbPlayerSkipBackFilled, TbPlayerSkipForwardFilled, TbPlayerTrackNextFilled } from "react-icons/tb";
 import { BsPlayCircle, BsStopCircle } from "react-icons/bs";
 import { GoHeartFill } from "react-icons/go";
@@ -27,7 +27,7 @@ function Cover() {
     
 
   return (
-    <div className="container" data-aos="fade-up">
+    <div className="container" id="cover_div" data-aos="fade-up">
         <div className='title'>축 결혼(祝 結婚)</div>
         <img className="cover__main-photo" src={mainPhoto} alt='weddingcouple'></img>
         <div className='cover__person'>

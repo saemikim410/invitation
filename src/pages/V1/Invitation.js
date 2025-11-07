@@ -26,7 +26,7 @@ function Invitation() {
     )
   }
   return (
-    <div className='bc-pink container' data-aos="fade-up">
+    <div className='bc-pink container' id="invitation_div" data-aos="fade-up">
         <img src={flower} className='flower' alt='flower'/>
         <div className='invitation__title'>초대합니다</div>
         <div className='invitation__content'>

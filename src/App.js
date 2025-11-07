@@ -36,10 +36,58 @@ function App() {
     };
   }, [activeTab]);
 
+  const [isChecked, setIsChecked] = useState(false);
+
+  // 2. 버튼 클릭 시 호출될 함수
+  const handleUncheckClick = () => {
+    // state를 'false'로 변경하여 체크박스를 해제합니다.
+    setIsChecked(false);
+  };
+
+  // 3. (선택 사항) 사용자가 체크박스를 직접 클릭할 때 상태를 변경하는 함수
+  const handleCheckboxChange = (event) => {
+    setIsChecked(event.target.checked);
+  };
+
+  const [isScroll, setIsScroll] = useState(false);
+  
+    const onScroll = () => {
+    setIsScroll(window.scrollY || window.pageYOffset > 0 ? true : false);
+  };
+  
+  useEffect(() => {
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, [isScroll]);
+
 
 return (
   <div className="wedding-tabs-wrapper">
     <div className="wedding-tabs">
+      <div className="sidebar-menu">
+        <input type="checkbox" id="menuicon" checked={isChecked} // state와 checked 속성을 연결
+          onChange={handleCheckboxChange} // 사용자가 직접 클릭할 수 있도록 연결
+          />
+          <label htmlFor="menuicon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <div className="sidebar">
+            <ul>
+              <li onClick={() => handleCheckboxChange({ target: { checked: false } })}>
+                 <a href="#cover_div">커버</a>
+                 <a href="#invitation_div">연락하기</a>
+                 <a href="#calendar_div">달력</a>
+                 <a href="#gallery_div">갤러리</a>
+                 <a href="#location_div">오시는 길</a>
+                 <a href="#quiz_div">퀴즈</a>
+                 <a href="#account_div">마음 전하실 곳</a>
+                
+              </li>
+            </ul>
+          </div>
+      </div>
       <div
         className={`wedding-tab ${activeTab === 'our' ? 'active' : ''}`}
         onClick={() => setActiveTab('our')}
@@ -51,7 +99,7 @@ return (
         onClick={() => setActiveTab('jeju')}
       >
         그날, 제주
-      </div>
+      </div>      
     </div>
 
     <div className="tab-content">

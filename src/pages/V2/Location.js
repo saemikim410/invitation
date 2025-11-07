@@ -32,7 +32,7 @@ function Location() {
   
 
   return (
-    <div className='container' data-aos="fade-up">
+    <div className='container' id="location_div" data-aos="fade-up">
     <div className='title'>오시는 길</div>
     <div className='location__details'>
       <div>더베뉴지 아트홀</div>

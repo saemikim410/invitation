@@ -58,7 +58,7 @@ function Calendar() {
     }, []);
 
   return (
-    <div className='container calendar' data-aos="fade-up">
+    <div className='container calendar' id="calendar_div" data-aos="fade-up">
       <img src={flower} className="flower" alt='flower'/>
       <h3>2026년 1월 18일 일요일 11시 50분</h3>
       <div className='calendar__line'></div>
