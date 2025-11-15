@@ -11,6 +11,7 @@ import './css/SurveyModal.css'
 import './css/Submit.css'
 import './css/Comment.css'
 import './css/Quiz.css'
+import './css/Etc.css'
 
 import Cover from './pages/V1/Cover.js'
 import Invitation from './pages/V1/Invitation.js';
@@ -18,6 +19,7 @@ import Calendar from './pages/V1/Calendar.js';
 import Contact from './pages/V1/Account.js';
 import Location from './pages/V1/Location.js';
 import ImgGallery from './pages/V1/ImgGallery.js';
+import Etc from './pages/V1/Etc.js';
 import Footer from './components/Footer.js';
 //import SurveyModal from './components/SurveyModal.js';
 // import Submit from './pages/Submit.js';
@@ -43,6 +45,7 @@ function Version1() {
           <Location />
           <Quiz/>
           <Contact />
+          <Etc />
           <Footer />
         </div>
       );

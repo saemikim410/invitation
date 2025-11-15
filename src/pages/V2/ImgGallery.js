@@ -1,29 +1,32 @@
 import React from 'react';
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
-import p1 from '../../images/CN1_0788.jpg';
-import p2 from '../../images/CN1_0811.jpg';
-import p3 from '../../images/CN2_9752.jpg';
-import p4 from '../../images/CN2_9874.jpg';
-import p5 from '../../images/CN1_1066.jpg';
-import p6 from '../../images/CN1_9360.jpg';
-import p7 from '../../images/CN1_9543.jpg';
-import p8 from '../../images/CN1_0670.jpg';
-import p9 from '../../images/CN1_0587.jpg';
-import p10 from '../../images/CN1_0177.jpg';
-import p11 from '../../images/CN1_0006.JPG';
 
-import s1 from '../../images/CN1_0788.jpg';
-import s2 from '../../images/CN1_0811.jpg';
-import s3 from '../../images/CN2_9752.jpg';
-import s4 from '../../images/CN2_9874.jpg';
-import s5 from '../../images/CN1_1066.jpg';
-import s6 from '../../images/CN1_9360.jpg';
-import s7 from '../../images/CN1_9543.jpg';
-import s8 from '../../images/CN1_0670.jpg';
-import s9 from '../../images/CN1_0587.jpg';
-import s10 from '../../images/CN1_0177.jpg';
-import s11 from '../../images/CN1_0006.JPG';
+import p1 from '../../images/j1.jpg';
+import p2 from '../../images/j2.jpg';
+import p3 from '../../images/j3.jpg';
+import p4 from '../../images/j4.jpg';
+import p5 from '../../images/j5.jpg';
+import p6 from '../../images/j6.jpg';
+import p7 from '../../images/j7.jpg';
+import p8 from '../../images/j8.jpg';
+import p9 from '../../images/j9.jpg';
+import p10 from '../../images/j10.jpg';
+import p11 from '../../images/j11.JPG';
+import p12 from '../../images/j12.jpg';
+
+import s1 from '../../images/j1.jpg';
+import s2 from '../../images/j2.jpg';
+import s3 from '../../images/j3.jpg';
+import s4 from '../../images/j4.jpg';
+import s5 from '../../images/j5.jpg';
+import s6 from '../../images/j6.jpg';
+import s7 from '../../images/j7.jpg';
+import s8 from '../../images/j8.jpg';
+import s9 from '../../images/j9.jpg';
+import s10 from '../../images/j10.jpg';
+import s11 from '../../images/j11.JPG';
+import s12 from '../../images/j12.jpg';
 
 function ImgGallery() {
 
@@ -71,6 +74,10 @@ function ImgGallery() {
     {
       original: p11,
       thumbnail: s11,
+    },
+    {
+      original: p12,
+      thumbnail: s12,
     },
   ];
 

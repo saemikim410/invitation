@@ -83,6 +83,7 @@ return (
                  <a href="#location_div">오시는 길</a>
                  <a href="#quiz_div">퀴즈</a>
                  <a href="#account_div">마음 전하실 곳</a>
+                 <a href="#etc_div">기타 안내</a>
                 
               </li>
             </ul>
